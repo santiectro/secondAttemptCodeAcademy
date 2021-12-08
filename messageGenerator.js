@@ -58,8 +58,6 @@ const randomMessage = (str = " ", num = 30) => {
             break;
     }
 
-    console.log(finalString)
-
 /*
     let randomNumber = Math.floor((Math.random() * num) + 1) 
     let randomMessage = messages[Math.floor(Math.random() * messages.length)]
@@ -72,30 +70,4 @@ const randomMessage = (str = " ", num = 30) => {
 */
 }
 
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
-randomMessage()
 
