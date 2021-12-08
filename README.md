@@ -1,9 +1,10 @@
-# New Project
+# Random Message generator
+
 ## This would be the introduction 
 
+The project just generates a message randomly from certain arrays, it has the option for the user to ask a yes or no question and give them a lucky number within a range that they can define when calling the function
+
 ### Technologies that were use.
-+ HTML
-+ CSS 
 + JavaScript
 
 ## Table of contents
@@ -12,19 +13,18 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is random message generator
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* JavaScript
+
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, you just need to pull the code from github and run it with node on your device after installation just place this in the command prompt or Git Bash
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd to where the file is located
+$ node messageGenerator.js
+
 ```
