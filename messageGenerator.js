@@ -13,7 +13,7 @@ const randomMessage = (str = " ", num = 30) => {
             break
         case 'You should':
             let youShould2 = [" go outside", " party", " stay in your house", " drink water", " clear things", " be careful", " spend time"]
-            let randomNumYouShould = youShould2[Math.floor(Math.random() * youShould2.length)]
+            let randomNumYouShould = Math.floor(Math.random() * youShould2.length)
             finalString += youShould2[randomNumYouShould]
             if (randomNumYouShould < 4){
                 let youShould3 = [" more often", " less often", " always"]
@@ -25,7 +25,7 @@ const randomMessage = (str = " ", num = 30) => {
     }
 
 
-
+/*
     let randomNumber = Math.floor((Math.random() * num) + 1) 
     let randomMessage = messages[Math.floor(Math.random() * messages.length)]
     let answerToQuestion;
@@ -34,7 +34,8 @@ const randomMessage = (str = " ", num = 30) => {
     }else{
         answerToQuestion = false
     }
+*/
 }
 
-console.log(randomMessage("Legit question", 30))
+
 
