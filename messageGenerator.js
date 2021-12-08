@@ -60,9 +60,9 @@ const randomMessage = (str = " ", num = 30) => {
 
 
     let randomNumber = Math.floor((Math.random() * num) + 1) 
-    generatedString += ` Your lucky number for today is ${randomNumber}`
+    generatedString += `. Your lucky number for today is ${randomNumber}`
     let answerToQuestion;
-    if (str === " "){
+    if (str === " " || str ===""){
         generatedString += ""
     }
     else if (Math.random() >= 0.5) {
@@ -78,4 +78,4 @@ const randomMessage = (str = " ", num = 30) => {
 }
 
 
-console.log(randomMessage("Will I get the iPhone 13", "100"))
+console.log(randomMessage("",100))
